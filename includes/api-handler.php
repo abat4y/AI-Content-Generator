@@ -1,11 +1,11 @@
 <?php 
 function aicg_generate_content($keyword, $post_type) {
     // API Key for OpenRouter
-    $api_key = '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';
+    $api_key = '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';
     
     // Prepare data to send to API
     $data = array(
-        'model' => 'google/gemma-2-9b-it:free', // Using a more reliable free model
+        'model' => 'openai/gpt-4o', // Using a more reliable free model
         'messages' => array(
             array(
                 'role' => 'user',
