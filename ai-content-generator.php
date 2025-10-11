@@ -11,6 +11,8 @@ Author URI: https://sameh-helal.abatchy.site/
 require_once plugin_dir_path(__FILE__) . 'includes/api-handler.php';
 require_once plugin_dir_path(__FILE__) . 'includes/post-creator.php';
 require_once plugin_dir_path(__FILE__) . 'includes/settings-page.php';
+require_once plugin_dir_path(__FILE__) . 'includes/api-settings.php';
+require_once plugin_dir_path(__FILE__) . 'includes/api-settings.php';
 
 // Create settings page
 function aicg_add_settings_page() {
